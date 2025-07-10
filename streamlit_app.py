@@ -25,5 +25,26 @@ with st.expander('Data Visualization'):
 # Data preparation
 with st.sidebar:
   st.header('Input features')
+# island,culmen_length_mm,culmen_depth_mm,flipper_length_mm,body_mass_g,sex
+  island = st.selectbox('Island', ('Torgersen', 'Biscoe', 'Dream'))
+  gender = st.selectbox('Gender', ('male', 'female'))
+  culmen_length_mm = st.slider('Culmen length (mm)', 32.1, 59.6, 41.9)
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

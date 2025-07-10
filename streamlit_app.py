@@ -10,3 +10,11 @@ with st.expander('Data'):
   st.write('**Raw Data**')
   df = pd.read_csv('https://raw.githubusercontent.com/SurajSitoula2000/ss-machinelearning/refs/heads/master/penguins_size.csv')
   df
+
+  st.write('**X**')
+  X = df.drop('species', axis=1)
+  X
+
+  st.write('**y**')
+  y = df.species
+  y

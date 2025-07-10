@@ -18,3 +18,7 @@ with st.expander('Data'):
   st.write('**y**')
   y = df.species
   y
+
+with st.expander('Data Visualization'):
+  st.scatter_chart(data=df, x='culmen_length_mm', y='culmen_depth_mm', color='species')
+  
